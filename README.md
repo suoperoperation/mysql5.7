@@ -1,6 +1,7 @@
 # mysql5.7
 mysql5.7 install
 下载并安装MySQL官方的 Yum Repository
+
 wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
 使用上面的命令就直接下载了安装用的Yum Repository，大概25KB的样子，然后就可以直接yum安装了
 yum -y install mysql57-community-release-el7-10.noarch.rpm
